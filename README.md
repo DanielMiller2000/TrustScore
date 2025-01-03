@@ -51,16 +51,58 @@ Welcome to **AI-Powered Virtual Study Buddy**, a tool designed to make studying 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/StudyBuddyAI.git
+   # Create a directory for the project and navigate to it
+mkdir StudyBuddyAI_Project
+cd StudyBuddyAI_Project
+
+# Clone the repository from GitHub
+git clone https://github.com/yourusername/StudyBuddyAI.git
+
+# Move into the cloned directory
+cd StudyBuddyAI
+
+# Create a virtual environment to manage dependencies
+python3 -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate  # For MacOS/Linux
+# .\venv\Scripts\activate  # For Windows
+
+# Upgrade pip to the latest version
+pip install --upgrade pip
    ```
 2. Install dependencies:
    ```bash
-   cd StudyBuddyAI
-   pip install -r requirements.txt
+  # Install all required dependencies listed in the requirements.txt file
+pip install -r requirements.txt
+
+# Verify installation of key packages
+pip freeze | grep transformers
+pip freeze | grep sklearn
+
+# Test TensorFlow or PyTorch installation if applicable
+python -c "import transformers; print(transformers.__version__)"
+python -c "import sklearn; print(sklearn.__version__)"
+
+# Optional: Install additional developer tools for debugging
+pip install ipython pylint autopep8
    ```
 3. Run the project:
    ```bash
-   python app.py
+   # Check Python version compatibility
+python --version
+
+# Start the Flask application
+python app.py
+
+# Monitor logs for errors or warnings
+tail -f logs/app.log  # Assuming logs are saved in a 'logs' folder
+
+# Test the API endpoint (if applicable) using curl
+curl -X POST -H "Content-Type: application/json" -d '{"text":"This is a test input"}' http://127.0.0.1:5000/summarize
+
+# Deactivate the virtual environment after testing
+deactivate
    ```
 
 ---
