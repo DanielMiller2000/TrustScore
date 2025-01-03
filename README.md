@@ -52,42 +52,36 @@ Welcome to **AI-Powered Virtual Study Buddy**, a tool designed to make studying 
 1. Clone the repository:
    ```bash
    # Create a directory for the project and navigate to it
-mkdir StudyBuddyAI_Project
-cd StudyBuddyAI_Project
+   mkdir StudyBuddyAI_Project
+   cd StudyBuddyAI_Project
 
-git clone https://github.com/yourusername/StudyBuddyAI.git
+   git clone https://github.com/yourusername/StudyBuddyAI.git
 
-cd StudyBuddyAI
+   cd StudyBuddyAI
 
-python3 -m venv venv
+   python3 -m venv venv
 
-source venv/bin/activate  # For MacOS/Linux
+   source venv/bin/activate  # For MacOS/Linux
 
-pip install --upgrade pip
+   pip install --upgrade pip
    ```
 2. Install dependencies:
    ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
+   pip freeze | grep transformers
+   pip freeze | grep sklearn
 
-pip freeze | grep transformers
-pip freeze | grep sklearn
+   python -c "import transformers; print(transformers.__version__)"
+   python -c "import sklearn; print(sklearn.__version__)"
 
-python -c "import transformers; print(transformers.__version__)"
-python -c "import sklearn; print(sklearn.__version__)"
-
-pip install ipython pylint autopep8
+   pip install ipython pylint autopep8
    ```
 3. Run the project:
    ```bash
-python --version
-
-python app.py
-
-tail -f logs/app.log  # Assuming logs are saved in a 'logs' folder
-
-curl -X POST -H "Content-Type: application/json" -d '{"text":"This is a test input"}' http://127.0.0.1:5000/summarize
-
-deactivate
+   python --version
+   python app.py
+   tail -f logs/app.log  # Assuming logs are saved in a 'logs' folder
+   curl -X POST -H "Content-Type: application/json" -d '{"text":"This is a test input"}' http://127.0.0.1:5000/summarize
    ```
 
 ---
