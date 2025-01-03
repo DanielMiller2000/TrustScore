@@ -1,0 +1,50 @@
+def extract_keywords(text, num_keywords=5):
+    """
+    Extracts key terms from the given text using TF-IDF.
+
+    Parameters:
+    text (str): Input text to analyze.
+    num_keywords (int): Number of keywords to extract.
+
+    Returns:
+    list: A list of top keywords.
+    """
+    vectorizer = TfidfVectorizer(stop_words='english')
+    tfidf_matrix = vectorizer.fit_transform([text])
+    feature_names = vectorizer.get_feature_names_out()
+    scores = tfidf_matrix.toarray()[0]
+
+    keywords = sorted(zip(feature_names, scores), key=lambda x: x[1], reverse=True)
+    return [keyword for keyword, score in keywords[:num_keywords]]
+
+
+# Example usage
+if __name__ == "__main__":
+    sample_text = """
+    Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural 
+    intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of 
+    intelligent agents: any system that perceives its environment and takes actions that maximize its 
+    chance of achieving its goals. AI applications include advanced robotics, machine learning, and 
+    language processing systems. Researchers continue to explore ways to create systems that are both 
+    autonomous and capable of learning from data inputs.
+    """
+
+    print("Original Text:")
+    print(sample_text)
+    print("\nGenerated Summary:")
+    print(generate_summary(sample_text, max_length=150, min_length=40))
+
+    print("\nGenerated Flashcards:")
+    flashcards = generate_flashcards(sample_text, num_questions=3)
+    for i, card in enumerate(flashcards):
+        print(f"Q{i+1}: {card['question']}")
+        print(f"A{i+1}: {card['answer']}")
+
+    print("\nAI Chatbot Example:")
+    question = "What is artificial intelligence?"
+    print(f"Q: {question}")
+    print(f"A: {answer_question(sample_text, question)}")
+
+    print("\nExtracted Keywords:")
+    keywords = extract_keywords(sample_text, num_keywords=5)
+    print(keywords)
