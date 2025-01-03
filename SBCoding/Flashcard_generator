@@ -1,0 +1,23 @@
+def generate_flashcards(text, num_questions=5):
+    """
+    Generate flashcards (questions and answers) from the input text.
+
+    Parameters:
+    text (str): Input text to generate questions.
+    num_questions (int): Number of flashcards to create.
+
+    Returns:
+    list: A list of dictionaries with questions and answers.
+    """
+    questions = []
+    sentences = re.split('[.!?]', text)
+    sentences = [s.strip() for s in sentences if len(s.strip()) > 10]  # Filter out short or empty sentences
+
+    sampled_sentences = random.sample(sentences, min(num_questions, len(sentences)))
+
+    for sentence in sampled_sentences:
+        question = f"What is the key idea of: '{sentence}'?"
+        answer = sentence
+        questions.append({"question": question, "answer": answer})
+
+    return questions
