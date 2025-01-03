@@ -25,6 +25,7 @@ Welcome to **AI-Powered Virtual Study Buddy**, a tool designed to make studying 
   - Adapts to individual learning styles and focuses on weak areas.
 
 ---
+![1](https://github.com/user-attachments/assets/db48225e-89d7-4063-8370-8d4d14e94022)
 
 ## How It Works
 
@@ -40,6 +41,7 @@ Welcome to **AI-Powered Virtual Study Buddy**, a tool designed to make studying 
 ---
 
 ## Technologies Used
+![2](https://github.com/user-attachments/assets/1fc4ed1f-f648-4ce0-b1d8-f21b8e73e31e)
 
 - **AI Frameworks:** GPT, TensorFlow, PyTorch.
 - **Backend:** Python and Flask.
