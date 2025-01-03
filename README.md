@@ -79,8 +79,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-- **GitHub:** [Study Buddy Repository](https://github.com/yourusername/StudyBuddyAI)  
-- **Email:** your-email@example.com  
+- **GitHub:** [Study Buddy Repository](https://github.com/DanielMiller2000/AI-StudyBuddy)
+- **Email:** Support@studybuddy.com  
 - **Twitter:** [@StudyBuddyAI](https://twitter.com/StudyBuddyAI)  
 
 ---
