@@ -2,7 +2,7 @@
 
 **Smart AI Study Assistant for Effective Learning**
 
-Welcome to **AI-Powered Virtual Study Buddy**, your intelligent learning companion designed to help students aged 18 to 30 study smarter, not harder. This AI-driven tool creates summaries, generates flashcards, and provides an interactive chat to review concepts and answer questions in real-time.
+Welcome to **AI-Powered Virtual Study Buddy**, a tool designed to make studying easier, faster, and more effective. Whether you're preparing for exams, mastering new topics, or just organizing your notes, this AI-driven assistant helps you stay ahead with summaries, flashcards, and an interactive study chat.
 
 ---
 
