@@ -1,45 +1,49 @@
-# TrustScore AI
+# AI-Powered Virtual Study Buddy
 
-**AI-Powered Reputation System for DeFi Security**
+**Smart AI Study Assistant for Effective Learning**
 
-Welcome to **TrustScore AI**, an advanced tool designed to evaluate the reliability and trustworthiness of tokens and DeFi projects. By leveraging artificial intelligence and blockchain analytics, TrustScore AI offers transparent, data-driven insights to help users make safer and smarter investment decisions.
+Welcome to **AI-Powered Virtual Study Buddy**, your intelligent learning companion designed to help students aged 18 to 30 study smarter, not harder. This AI-driven tool creates summaries, generates flashcards, and provides an interactive chat to review concepts and answer questions in real-time.
 
 ---
 
 ## Key Features
 
-- **AI-Driven Reputation Scoring**
-  - Evaluates smart contracts and on-chain activity to generate trust scores.  
+- **AI Summarizer**
+  - Converts lengthy texts into clear, concise summaries for faster review.
 
-- **Risk Analysis**
-  - Detects suspicious activity, vulnerabilities, and potential rug pulls.  
+- **Flashcard Generator**
+  - Creates personalized flashcards to help you memorize key concepts.
 
-- **Transparency Reports**
-  - Provides detailed audits and insights into project behaviors and token performance.  
+- **Study Chat Assistant**
+  - Provides instant explanations, quizzes, and concept reviews based on your needs.
 
-- **Real-Time Monitoring**
-  - Tracks changes in project activity to update trust scores instantly.  
+- **Progress Tracker**
+  - Monitors study sessions and suggests areas for improvement.
 
-- **User-Friendly Dashboard**
-  - Simplifies access to data for both new and experienced DeFi users.  
+- **Custom Learning Paths**
+  - Adapts to individual learning styles and focuses on weak areas.
 
 ---
 
 ## How It Works
 
-1. **Data Collection:** Analyzes on-chain metrics, liquidity flows, and contract interactions.  
-2. **AI Processing:** Uses machine learning to detect patterns and assess risks.  
-3. **Score Generation:** Assigns a trust score based on contract security, activity, and historical data.  
-4. **Alerts and Updates:** Provides real-time alerts about suspicious behavior or trust score changes.  
+1. **Upload Your Material:**  
+   Import notes, articles, or PDFs.
+2. **AI Processing:**  
+   The AI analyzes content, identifies key points, and generates summaries and flashcards.
+3. **Engage with the AI Chat:**  
+   Ask questions, test your knowledge, and get clarifications instantly.
+4. **Track Your Progress:**  
+   Monitor performance and focus on areas where improvement is needed.
 
 ---
 
 ## Technologies Used
 
-- **Blockchain:** Solana and Ethereum integration.  
-- **AI Frameworks:** TensorFlow, Scikit-learn.  
-- **Backend:** Python and Flask for APIs.  
-- **Frontend:** React for the user dashboard.  
+- **AI Frameworks:** GPT, TensorFlow, PyTorch.
+- **Backend:** Python and Flask.
+- **Frontend:** React for the user interface.
+- **Database:** PostgreSQL for storing progress and user data.
 
 ---
 
@@ -47,11 +51,11 @@ Welcome to **TrustScore AI**, an advanced tool designed to evaluate the reliabil
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/-/TrustScoreAI.git
+   git clone https://github.com/yourusername/StudyBuddyAI.git
    ```
 2. Install dependencies:
    ```bash
-   cd TrustScoreAI
+   cd StudyBuddyAI
    pip install -r requirements.txt
    ```
 3. Run the project:
@@ -63,7 +67,7 @@ Welcome to **TrustScore AI**, an advanced tool designed to evaluate the reliabil
 
 ## Contributing
 
-We welcome contributions! Feel free to fork the repository, create pull requests, or submit issues to improve the project.
+We welcome contributions from the community! Fork the repository, create pull requests, or submit issues to help improve the platform.
 
 ---
 
@@ -75,10 +79,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-- **GitHub:** [TrustScore AI Repository](https://github.com/yourusername/TrustScoreAI)  
-- **Email:** -
-- **Twitter:** [@TrustScoreAI](https://twitter.com/TrustScoreAI)  
+- **GitHub:** [Study Buddy Repository](https://github.com/yourusername/StudyBuddyAI)  
+- **Email:** your-email@example.com  
+- **Twitter:** [@StudyBuddyAI](https://twitter.com/StudyBuddyAI)  
 
 ---
 
-**Build Trust in DeFi with AI-Powered Security.**
+**Learn smarter. Study better. Your AI-powered buddy for success.**
