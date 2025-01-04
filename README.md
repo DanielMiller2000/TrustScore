@@ -7,6 +7,16 @@ Welcome to **AI-Powered Virtual Study Buddy**, a tool designed to make studying 
 
 ---
 
+## **About the Project**
+
+**AI-Powered Virtual Study Buddy** is an intelligent assistant designed to help students, professionals, and lifelong learners simplify their study routines. It leverages artificial intelligence to automate time-consuming tasks like summarizing long texts, generating flashcards, and answering questions with context-aware accuracy. This tool is ideal for anyone looking to improve learning efficiency, retain information better, and stay organized.
+
+The assistant not only adapts to different learning styles but also provides insights into performance, allowing users to focus on areas that need the most attention. Whether you're reviewing for an exam, breaking down complex concepts, or simply organizing your materials, **Study Buddy** has you covered.
+
+Unlike generic AI tools, **Study Buddy** is designed specifically for learning. It integrates seamlessly with existing study workflows, offering features like keyword extraction, performance tracking, and AI-driven personalization. It’s more than just a tool—it’s a study partner that evolves with your needs and helps you achieve your academic goals.
+
+---
+
 ## Key Features
 
 - **AI Summarizer**
